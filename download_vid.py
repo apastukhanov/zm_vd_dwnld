@@ -5,7 +5,10 @@ from urllib import parse
 from bs4 import BeautifulSoup
 
 
-URL_BASE  = "https://sas.zoom.us/rec/play/A-1ukwuBhLcoE_SImJhNwVHGtPlOzbWIv7StvWJSCI33BUmGvUvMMpo-BLygBQUYVdwkY2zATIPaUKG9.CQu9kjxMjT2wR8S6?continueMode=true&_x_zm_rtaid=V2IYpjoKQPSHUhtE3eC0Zw.1608031401246.d485b92161a6ee6a103fc55a9211a378&_x_zm_rhtaid=14"
+URL_BASE  = "https://sas.zoom.us/rec/play/A-1ukwuBhLcoE_SImJhNwVHGtPlOzbWIv7St" \
+            "vWJSCI33BUmGvUvMMpo-BLygBQUYVdwkY2zATIPaUKG9.CQu9kjxMjT2wR8S6?continueMode=true" \
+            "&_x_zm_rtaid=V2IYpjoKQPSHUhtE3eC0Zw.1608031401246" \
+            ".d485b92161a6ee6a103fc55a9211a378&_x_zm_rhtaid=14"
 
 
 s = requests.Session()
